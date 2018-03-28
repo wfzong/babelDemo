@@ -1,0 +1,17 @@
+{
+  "name": "babelpractice",
+  "version": "1.0.0",
+  "description": "babelpractice",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib -s",
+    "build-single": "babel src --out-file lib-single/main.js -s"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.4"
+  }
+}
