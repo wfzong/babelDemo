@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/dialogBox.js"],"names":["fun","alert"],"mappings":";;;;;;mBAAwBA,G;AAAT,UAASA,GAAT,GAAe;AAC7BC,QAAM,yBAAN;AACA,SAAO,KAAP;AACA","file":"dialogBox.js","sourcesContent":["export default function fun() {\r\n\talert('alert from dialogBox.js')\r\n\treturn 'dia'\r\n}"]}

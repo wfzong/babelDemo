@@ -1,24 +1,27 @@
-// var mod = require('./print.js')
+import {fun} from './dialogBox.js'
 
-// console.log(mod.counter)
-// mod.incCounter()
-// console.log(mod.counter)
+// const but = document.getElementById('but')
 
-// main.js
-//import { counter, incCounter } from './lib';
-import {counter, incCounter} from './lib';
-console.log(counter); // 3
-incCounter();
-console.log(counter); // 4
+// but.addEventListener('click', event => {
+// 	import('./dialogBox.js')
+// 	.then(dialogBox => {
+// 		console.log(dialogBox.fun())
+// 	})
+// })
 
-// function foo() {
-// 	this.name = 'this foo fun'
-// 	return 'sss'
+// function fun() {
+// 	return new Promise((res,rej) => {
+// 		setTimeout(() => {
+// 			if(Math.random()*10 > 5) {
+// 				res('ok')
+// 			} else {
+// 				rej('err')
+// 			}
+// 		}, 300)
+// 	})
 // }
-// foo.prototype.callMe = function() {
-// 	setTimeout(() => {
-// 		console.log(this.name)
-// 	}, 300)
-// }
-// const s = new foo()
-// s.callMe()
+// fun().then(res => {
+// 	console.log(res)
+// }).catch(err => {
+// 	console.log(err)
+// })
