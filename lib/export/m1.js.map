@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/export/m1.js"],"names":["foo","setTimeout"],"mappings":";;;;;AAAO,IAAIA,oBAAM,KAAV;AACPC,WAAW;AAAA,iBADAD,GACA,GAAMA,MAAI,KAAV;AAAA,CAAX,EAA4B,GAA5B","file":"m1.js","sourcesContent":["export var foo = 'bar'\r\nsetTimeout(() => foo='baz', 500)"]}

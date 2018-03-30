@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/md_err/lib.js"],"names":["obj"],"mappings":";;;;;AAAA;AACO,IAAIA,oBAAM,EAAV","file":"lib.js","sourcesContent":["// lib.js\r\nexport let obj = {};"]}

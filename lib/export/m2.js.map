@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/export/m2.js"],"names":["console","log","setTimeout"],"mappings":";;AAAA;;AACAA,QAAQC,GAAR;;AAEAC,WAAW;AAAA,SAAMF,QAAQC,GAAR,QAAN;AAAA,CAAX,EAAmC,GAAnC","file":"m2.js","sourcesContent":["import {foo} from './m1.js'\r\nconsole.log(foo)\r\n\r\nsetTimeout(() => console.log(foo), 500)"]}

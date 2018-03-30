@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/md_err/main.js"],"names":["prop"],"mappings":";;AACA;;AAEA,SAAIA,IAAJ,GAAW,GAAX,C,CAAgB;AAChB;AAJA","file":"main.js","sourcesContent":["// main.js\r\nimport { obj } from './lib';\r\n\r\nobj.prop = 123; // OK\r\n//obj = {}; // TypeError"]}

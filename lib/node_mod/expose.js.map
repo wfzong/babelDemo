@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/node_mod/expose.js"],"names":["module","exports","__dirname"],"mappings":";;AAAAA,OAAOC,OAAP,GAAiB,EAACC,oBAAD,EAAjB","file":"expose.js","sourcesContent":["module.exports = {__dirname}"]}

@@ -1,4 +1,4 @@
 {
-	"presets": [["env", {"modules": 'amd'} ]],
+	"presets": [["env", {"modules": 'commonjs'} ]],
 	"plugins": ["syntax-dynamic-import"]
 }

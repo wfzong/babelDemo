@@ -2,12 +2,17 @@
   "name": "babelpractice",
   "version": "1.0.0",
   "description": "babelpractice",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wfzong/babelDemo.git"
+  },
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib -s --watch",
+    "build": "babel src -d lib -s",
+    "build-watch": "babel src -d lib -s --watch",
     "build-single": "babel src --out-file lib-single/main.js -s"
   },
-  "author": "",
+  "author": "wfz123@126.com",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/md_one/x.js"],"names":["add"],"mappings":";;AAAA;;AACA,OAAEA,GAAF","file":"x.js","sourcesContent":["import {c} from './mod'\r\nc.add()"]}

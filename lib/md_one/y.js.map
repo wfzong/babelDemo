@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/md_one/y.js"],"names":["show"],"mappings":";;AAAA;;AACA,OAAEA,IAAF","file":"y.js","sourcesContent":["import {c} from './mod'\r\nc.show()"]}
